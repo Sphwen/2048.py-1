@@ -12,7 +12,7 @@ def getnums(f,r=[0,1,2,3],c=[0,1,2,3]):
 
 def sert(f,liste,r=[0,1,2,3],c=[0,1,2,3],reverse=False):
     pop_from=0
-    if reverse==True:pop_from=-1
+    epop_from=-1
     for y in range(4):
         for x in range(4):
             if y in r and x in c:f[y][x]=liste.pop(pop_from)
